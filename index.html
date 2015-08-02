@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>diffoscope: in-depth comparison of files, archives, and directories</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background: white no-repeat 20px 20px url(images/logo.png);
+      margin-left: 350px;
+    }
+    h1 {
+      font-size: 36pt;
+      color: black;
+    }
+    h2 {
+      clear: left;
+    }
+    #synopsis {
+      text-align: justify;
+      width: 70ex;
+      border-left: solid 5px #666;
+      padding-left: 1ex;
+      font-size: 14pt;
+    }
+    #content {
+      width: 70ex;
+      text-align: justify;
+    }
+    .subtitle {
+      margin-top: -1em;
+      font-size: 20pt;
+      color: #666;
+    }
+    #examples div {
+      float: left;
+      padding-top: 1ex;
+      padding-bottom: 2ex;
+      text-align: center;
+    }
+    #examples img {
+      border: solid black 1px;
+    }
+  </style>
+</head>
+<body>
+  <h1>diffoscope</h1>
+  <div class="subtitle">in-depth comparison of files, archives, and directories</div>
+  <p id="synopsis">
+    <em>diffoscope</em> will try to get to the bottom of what makes files or
+    directories different. It will recursively unpack archives of many kinds and
+    transform various binary formats into more human readable form to compare
+    them. It can compare two tarballs, ISO images, or PDF just as easily.
+  </p>
+  <div id="examples">
+    <div style="width: 450px;">
+      <a href="examples/https-everywhere-5.0.6_vs_5.0.7.html">
+        <img src="images/https-everywhere-5.0.6_vs_5.0.7.thumbnail.png" alt="Example of diffoscope HTML output" /><br />
+        Compare Firefox extensions (HTML output)
+      </a>
+    </div>
+    <div style="width: 450px;">
+      <a href="examples/igerman98_20131206-5.txt">
+        <img src="images/igerman98_20131206-5.thumbnail.png" alt="Example of diffoscope text output" /><br />
+        Compare Debian packages (text output)
+      </a>
+    </div>
+    <p style="text-align: right;"><a href="https://reproducible.debian.net/unstable/amd64/index_FTBR.html">And more examples on reproducible.debian.net…</a></p>
+  </div>
+  <div id="content">
+    <h2>Features</h2>
+    <ul>
+      <li>Command-line interface</li>
+      <li>Text and HTML ouput</li>
+      <li>Supported archives: bzip2, cpio, <code>.deb</code>, gzip, ipk, iso9660, RPM, squashfs, tar, xz, zip</li>
+      <li>Supported formats: Debian <code>.changes</code>, TrueType and OpenType fonts, Gettext .mo, <code>.class</code>, Mono <code>.exe</code>, PDF, PNG, Sqlite3 databases, text files</li>
+      <li>Fallback on hexdump comparison</li>
+      <li>Fuzzy-matching to handle renamings</li>
+    </ul>
+    <h2>Get diffoscope!</h2>
+    <p>
+      On <a href="https://www.debian.org/">Debian</a> <em>unstable</em>:
+    </p>
+    <pre>
+    apt-get install diffoscope
+</pre>
+    <p>
+      Through Git:
+    </p>
+    <pre>
+    git clone https://anonscm.debian.org/git/reproducible/diffoscope.git
+</pre>
+    <h2>Contribute</h2>
+    <p>
+      <em>diffoscope</em> is developed within the <a href="https://wiki.debian.org/ReproducibleBuilds">Debian “Reproducible builds” effort</a>.
+    </p>
+    <ul>
+      <li><a href="https://bugs.debian.org/src:diffoscope">Bugs and feature requests</a></li>
+      <li><a href="https://lists.alioth.debian.org/mailman/listinfo/reproducible-builds"><code>reproducible-builds</code> mailing-list</a></li>
+      <li><code>#debian-reproducible</code> on <a href="http://www.oftc.net/">OFTC</a></li>
+    </ul>
+    <p>
+      Extending <em>diffoscope</em> to support new formats is quite straightforward in most cases. It also has a comprehensive test suite. Patches welcome!
+    </p>
+    <h2>License</h2>
+    <p>
+      <em>diffoscope</em> is free software licensed under the <a href="https://www.gnu.org/licenses/gpl.html">GNU General Public License version 3</a> or later.
+    </p>
+    <h2>Contributors</h2>
+    <p>
+     Lunar, Reiner Herrmann, Chris Lamb, Helmut Grohne, Holger Levsen, Yasushi SHOJI, Daniel Kahn Gillmor, Peter De Wachter
+    </p>
+  </div>
+</body>
+</html>

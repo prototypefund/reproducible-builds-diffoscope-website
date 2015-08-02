@@ -1,0 +1,467 @@
+--- /srv/reproducible-results/tmp.25xDeBPs0m/b1/igerman98_20131206-5_amd64.changes
++++ /srv/reproducible-results/tmp.25xDeBPs0m/b2/igerman98_20131206-5_amd64.changes
+├── Changes
+│ @@ -1,14 +1,14 @@
+│  
+│ - b515f01c1cea977c45c9bbfa2e96bda5 332686 text optional aspell-de_20131206-5_all.deb
+│ - 50172139a106107285f40a2018b3f445 284846 text optional hunspell-de-at_20131206-5_all.deb
+│ - 7791a46ada25b49897f8ab3192f2f7a3 284586 text optional hunspell-de-ch_20131206-5_all.deb
+│ - 3ef01dbd291e777c52e674d3c77161c9 284038 text optional hunspell-de-de_20131206-5_all.deb
+│ - 64af7b9e6012a8c1d5a4ac51162c8a78 7851 text optional igerman98_20131206-5_amd64.buildinfo
+│ - 3e720b83d4be2e164708689cbf2564f8 444900 text optional ingerman_20131206-5_all.deb
+│ - b60f8ea08b4a89505255feea79e059e5 444904 text optional iswiss_20131206-5_all.deb
+│ - 47f3abb904632c0bed7ea6a0cf301da6 330774 text optional myspell-de-at_20131206-5_all.deb
+│ - db35e556b9fc91c45ed2c15ceb4517d6 330636 text optional myspell-de-ch_20131206-5_all.deb
+│ - 18237038084cf5645ae73ae9952659e9 326096 text optional myspell-de-de_20131206-5_all.deb
+│ + 1ba785fc0caf4d148d4ee667e174c256 332664 text optional aspell-de_20131206-5_all.deb
+│ + fa0092c2963eeab5477b028b880162a7 284846 text optional hunspell-de-at_20131206-5_all.deb
+│ + 93c7f6264f1ff6f714942c4a5f6c21fb 284584 text optional hunspell-de-ch_20131206-5_all.deb
+│ + d7e331fbbf9da9ce80c8c0eb685b8982 284038 text optional hunspell-de-de_20131206-5_all.deb
+│ + 3347fdd4eeb8d9b51024193c9bc1f061 7851 text optional igerman98_20131206-5_amd64.buildinfo
+│ + 676e0db4b77b5ab70bd4e10cb2b08180 444900 text optional ingerman_20131206-5_all.deb
+│ + fb2d4b5871d287a6b57aacef55844373 444904 text optional iswiss_20131206-5_all.deb
+│ + 42a5095038009efb28ed2522593debe9 330774 text optional myspell-de-at_20131206-5_all.deb
+│ + a7a8b9572355ced24dc3664437060559 330636 text optional myspell-de-ch_20131206-5_all.deb
+│ + 803f951eca4ca1637e844f9f7c1d28bf 326098 text optional myspell-de-de_20131206-5_all.deb
+│   8781a27a9f804f0ad8e4ca669275d68d 20302 text optional rmligs-german_20131206-5_all.deb
+│   49296243f41c3788d7a8c90bbc4da1f1 676900 text optional wngerman_20131206-5_all.deb
+│   a1b06a4f19250080d177560a8f1ea260 677160 text optional wswiss_20131206-5_all.deb
+├── aspell-de_20131206-5_all.deb
+│   ├── metadata
+│   │ @@ -1,3 +1,3 @@
+│   │  rw-r--r-- 0/0      4 Jun 11 16:19 2014 debian-binary
+│   │ -rw-r--r-- 0/0   2893 Jun 11 16:19 2014 control.tar.gz
+│   │ -rw-r--r-- 0/0 329600 Jun 11 16:19 2014 data.tar.xz
+│   │ +rw-r--r-- 0/0   2875 Jun 11 16:19 2014 control.tar.gz
+│   │ +rw-r--r-- 0/0 329596 Jun 11 16:19 2014 data.tar.xz
+│   ├── control.tar.gz
+│   │   ├── control.tar
+│   │   │   ├── md5sums
+│   │   │   │┄ Files in package differs
+│   │   │   ╵
+│   │   ╵
+│   ├── data.tar.xz
+│   │   ├── data.tar
+│   │   │   ├── ./usr/lib/aspell/de_affix.dat
+│   │   │   │ @@ -1,11 +1,11 @@
+│   │   │   │  # this is the affix file of the de_DE Myspell dictionary
+│   │   │   │  # derived from the igerman98 dictionary
+│   │   │   │  #
+│   │   │   │ -# Version: 20131206 (build 20150801)
+│   │   │   │ +# Version: 20131206 (build 20150802)
+│   │   │   │  #
+│   │   │   │  # Copyright (C) 1998-2011 Bjoern Jacke <bjoern@j3e.de>
+│   │   │   │  #
+│   │   │   │  # License: GPLv2, GPLv3 or OASIS distribution license agreement
+│   │   │   │  # There should be a copy of all of this licenses included
+│   │   │   │  # with every distribution of this dictionary. Modified
+│   │   │   │  # versions using the GPL may only include the GPL
+│   │   │   ├── ./usr/share/aspell/de-common.cwl.gz
+│   │   │   │   ├── metadata
+│   │   │   │   │ @@ -1 +1 @@
+│   │   │   │   │ -gzip compressed data, last modified: Sat Aug  1 18:21:34 2015, max compression, from Unix
+│   │   │   │   │ +gzip compressed data, last modified: Sat Aug  1 18:24:36 2015, max compression, from Unix
+│   │   │   │   ╵
+│   │   │   ├── ./usr/share/aspell/de_AT-only.cwl.gz
+│   │   │   │   ├── metadata
+│   │   │   │   │ @@ -1 +1 @@
+│   │   │   │   │ -gzip compressed data, last modified: Sat Aug  1 18:21:35 2015, max compression, from Unix
+│   │   │   │   │ +gzip compressed data, last modified: Sat Aug  1 18:24:36 2015, max compression, from Unix
+│   │   │   │   ╵
+│   │   │   ├── ./usr/share/aspell/de_CH-only.cwl.gz
+│   │   │   │   ├── metadata
+│   │   │   │   │ @@ -1 +1 @@
+│   │   │   │   │ -gzip compressed data, last modified: Sat Aug  1 18:21:35 2015, max compression, from Unix
+│   │   │   │   │ +gzip compressed data, last modified: Sat Aug  1 18:24:36 2015, max compression, from Unix
+│   │   │   │   ╵
+│   │   │   ├── ./usr/share/aspell/de_DE-only.cwl.gz
+│   │   │   │   ├── metadata
+│   │   │   │   │ @@ -1 +1 @@
+│   │   │   │   │ -gzip compressed data, last modified: Sat Aug  1 18:21:34 2015, max compression, from Unix
+│   │   │   │   │ +gzip compressed data, last modified: Sat Aug  1 18:24:36 2015, max compression, from Unix
+│   │   │   │   ╵
+│   │   │   ╵
+│   │   ╵
+│   ╵
+├── hunspell-de-at_20131206-5_all.deb
+│   ├── control.tar.gz
+│   │   ├── control.tar
+│   │   │   ├── md5sums
+│   │   │   │┄ Files in package differs
+│   │   │   ╵
+│   │   ╵
+│   ├── data.tar.xz
+│   │   ├── data.tar
+│   │   │   ├── ./usr/share/hunspell/de_AT.aff
+│   │   │   │ @@ -1,11 +1,11 @@
+│   │   │   │  # this is the affix file of the de_AT Hunspell dictionary
+│   │   │   │  # derived from the igerman98 dictionary
+│   │   │   │  #
+│   │   │   │ -# Version: 20131206 (build 20150801)
+│   │   │   │ +# Version: 20131206 (build 20150802)
+│   │   │   │  #
+│   │   │   │  # Copyright (C) 1998-2011 Bjoern Jacke <bjoern@j3e.de>
+│   │   │   │  #
+│   │   │   │  # License: GPLv2, GPLv3 or OASIS distribution license agreement
+│   │   │   │  # There should be a copy of both of this licenses included
+│   │   │   │  # with every distribution of this dictionary. Modified
+│   │   │   │  # versions using the GPL may only include the GPL
+│   │   │   ├── ./usr/share/hunspell/de_AT.dic
+│   │   │   │ @@ -1,12 +1,12 @@
+│   │   │   │  74459
+│   │   │   │  	This is the dictionary file of the de_AT Hunspell dictionary
+│   │   │   │  	derived from the igerman98 dictionary
+│   │   │   │  	
+│   │   │   │ -	Version: 20131206 (build 20150801)
+│   │   │   │ +	Version: 20131206 (build 20150802)
+│   │   │   │  	
+│   │   │   │  	Copyright (C) 1998-2011 Bjoern Jacke <bjoern@j3e.de>
+│   │   │   │  	
+│   │   │   │  	License: GPLv2, GPLv3 or OASIS distribution license agreement There
+│   │   │   │  	should be a copy of all of this licenses included with every distribution
+│   │   │   │  	of this dictionary. Modified versions using the GPL may only include the
+│   │   │   │  	GPL. This dictionary is compiled from igerman98. For the purpose of the
+│   │   │   ╵
+│   │   ╵
+│   ╵
+├── hunspell-de-ch_20131206-5_all.deb
+│   ├── metadata
+│   │ @@ -1,3 +1,3 @@
+│   │  rw-r--r-- 0/0      4 Jun 11 16:19 2014 debian-binary
+│   │ -rw-r--r-- 0/0    977 Jun 11 16:19 2014 control.tar.gz
+│   │ +rw-r--r-- 0/0    976 Jun 11 16:19 2014 control.tar.gz
+│   │  rw-r--r-- 0/0 283416 Jun 11 16:19 2014 data.tar.xz
+│   ├── control.tar.gz
+│   │   ├── control.tar
+│   │   │   ├── md5sums
+│   │   │   │┄ Files in package differs
+│   │   │   ╵
+│   │   ╵
+│   ├── data.tar.xz
+│   │   ├── data.tar
+│   │   │   ├── ./usr/share/hunspell/de_CH.aff
+│   │   │   │ @@ -1,11 +1,11 @@
+│   │   │   │  # this is the affix file of the de_CH Hunspell dictionary
+│   │   │   │  # derived from the igerman98 dictionary
+│   │   │   │  #
+│   │   │   │ -# Version: 20131206 (build 20150801)
+│   │   │   │ +# Version: 20131206 (build 20150802)
+│   │   │   │  #
+│   │   │   │  # Copyright (C) 1998-2011 Bjoern Jacke <bjoern@j3e.de>
+│   │   │   │  #
+│   │   │   │  # License: GPLv2, GPLv3 or OASIS distribution license agreement
+│   │   │   │  # There should be a copy of both of this licenses included
+│   │   │   │  # with every distribution of this dictionary. Modified
+│   │   │   │  # versions using the GPL may only include the GPL
+│   │   │   ├── ./usr/share/hunspell/de_CH.dic
+│   │   │   │ @@ -1,12 +1,12 @@
+│   │   │   │  74274
+│   │   │   │  	This is the dictionary file of the de_CH Hunspell dictionary
+│   │   │   │  	derived from the igerman98 dictionary
+│   │   │   │  	
+│   │   │   │ -	Version: 20131206 (build 20150801)
+│   │   │   │ +	Version: 20131206 (build 20150802)
+│   │   │   │  	
+│   │   │   │  	Copyright (C) 1998-2011 Bjoern Jacke <bjoern@j3e.de>
+│   │   │   │  	
+│   │   │   │  	License: GPLv2, GPLv3 or OASIS distribution license agreement There
+│   │   │   │  	should be a copy of all of this licenses included with every distribution
+│   │   │   │  	of this dictionary. Modified versions using the GPL may only include the
+│   │   │   │  	GPL. This dictionary is compiled from igerman98. For the purpose of the
+│   │   │   ╵
+│   │   ╵
+│   ╵
+├── hunspell-de-de_20131206-5_all.deb
+│   ├── control.tar.gz
+│   │   ├── control.tar
+│   │   │   ├── md5sums
+│   │   │   │┄ Files in package differs
+│   │   │   ╵
+│   │   ╵
+│   ├── data.tar.xz
+│   │   ├── data.tar
+│   │   │   ├── ./usr/share/hunspell/de_DE.aff
+│   │   │   │ @@ -1,11 +1,11 @@
+│   │   │   │  # this is the affix file of the de_DE Hunspell dictionary
+│   │   │   │  # derived from the igerman98 dictionary
+│   │   │   │  #
+│   │   │   │ -# Version: 20131206 (build 20150801)
+│   │   │   │ +# Version: 20131206 (build 20150802)
+│   │   │   │  #
+│   │   │   │  # Copyright (C) 1998-2011 Bjoern Jacke <bjoern@j3e.de>
+│   │   │   │  #
+│   │   │   │  # License: GPLv2, GPLv3 or OASIS distribution license agreement
+│   │   │   │  # There should be a copy of both of this licenses included
+│   │   │   │  # with every distribution of this dictionary. Modified
+│   │   │   │  # versions using the GPL may only include the GPL
+│   │   │   ├── ./usr/share/hunspell/de_DE.dic
+│   │   │   │ @@ -1,12 +1,12 @@
+│   │   │   │  74187
+│   │   │   │  	This is the dictionary file of the de_DE Hunspell dictionary
+│   │   │   │  	derived from the igerman98 dictionary
+│   │   │   │  	
+│   │   │   │ -	Version: 20131206 (build 20150801)
+│   │   │   │ +	Version: 20131206 (build 20150802)
+│   │   │   │  	
+│   │   │   │  	Copyright (C) 1998-2011 Bjoern Jacke <bjoern@j3e.de>
+│   │   │   │  	
+│   │   │   │  	License: GPLv2, GPLv3 or OASIS distribution license agreement There
+│   │   │   │  	should be a copy of all of this licenses included with every distribution
+│   │   │   │  	of this dictionary. Modified versions using the GPL may only include the
+│   │   │   │  	GPL. This dictionary is compiled from igerman98. For the purpose of the
+│   │   │   ╵
+│   │   ╵
+│   ╵
+├── igerman98_20131206-5_amd64.buildinfo
+│ @@ -2,51 +2,51 @@
+│  Build-Architecture: amd64
+│  Source: igerman98
+│  Binary: ingerman iswiss wngerman wswiss rmligs-german myspell-de-at myspell-de-ch myspell-de-de hunspell-de-at hunspell-de-ch hunspell-de-de aspell-de
+│  Architecture: all
+│  Version: 20131206-5
+│  Checksums-Md5:
+│   a3d3da7efb9e1038cd9070abe2ab2b05 1850 igerman98_20131206-5.dsc
+│ - b515f01c1cea977c45c9bbfa2e96bda5 332686 aspell-de_20131206-5_all.deb
+│ - 50172139a106107285f40a2018b3f445 284846 hunspell-de-at_20131206-5_all.deb
+│ - 7791a46ada25b49897f8ab3192f2f7a3 284586 hunspell-de-ch_20131206-5_all.deb
+│ - 3ef01dbd291e777c52e674d3c77161c9 284038 hunspell-de-de_20131206-5_all.deb
+│ - 3e720b83d4be2e164708689cbf2564f8 444900 ingerman_20131206-5_all.deb
+│ - b60f8ea08b4a89505255feea79e059e5 444904 iswiss_20131206-5_all.deb
+│ - 47f3abb904632c0bed7ea6a0cf301da6 330774 myspell-de-at_20131206-5_all.deb
+│ - db35e556b9fc91c45ed2c15ceb4517d6 330636 myspell-de-ch_20131206-5_all.deb
+│ - 18237038084cf5645ae73ae9952659e9 326096 myspell-de-de_20131206-5_all.deb
+│ + 1ba785fc0caf4d148d4ee667e174c256 332664 aspell-de_20131206-5_all.deb
+│ + fa0092c2963eeab5477b028b880162a7 284846 hunspell-de-at_20131206-5_all.deb
+│ + 93c7f6264f1ff6f714942c4a5f6c21fb 284584 hunspell-de-ch_20131206-5_all.deb
+│ + d7e331fbbf9da9ce80c8c0eb685b8982 284038 hunspell-de-de_20131206-5_all.deb
+│ + 676e0db4b77b5ab70bd4e10cb2b08180 444900 ingerman_20131206-5_all.deb
+│ + fb2d4b5871d287a6b57aacef55844373 444904 iswiss_20131206-5_all.deb
+│ + 42a5095038009efb28ed2522593debe9 330774 myspell-de-at_20131206-5_all.deb
+│ + a7a8b9572355ced24dc3664437060559 330636 myspell-de-ch_20131206-5_all.deb
+│ + 803f951eca4ca1637e844f9f7c1d28bf 326098 myspell-de-de_20131206-5_all.deb
+│   8781a27a9f804f0ad8e4ca669275d68d 20302 rmligs-german_20131206-5_all.deb
+│   49296243f41c3788d7a8c90bbc4da1f1 676900 wngerman_20131206-5_all.deb
+│   a1b06a4f19250080d177560a8f1ea260 677160 wswiss_20131206-5_all.deb
+│  Checksums-Sha1:
+│   22d12de51a8324644e8fd0c6fb30d06ed223378a 1850 igerman98_20131206-5.dsc
+│ - 4e06afa87b4c970efe4120f963f2b6b4501da023 332686 aspell-de_20131206-5_all.deb
+│ - 385d637c63f48e1dbcf879728ab6b1b88a804560 284846 hunspell-de-at_20131206-5_all.deb
+│ - 772da6115dcc5e006c33504df0d49dc03b3c4e99 284586 hunspell-de-ch_20131206-5_all.deb
+│ - 2d955ae7d395b82434c4cee46be55d0f90467c79 284038 hunspell-de-de_20131206-5_all.deb
+│ - 3359acbda2d4eefb4c6604e3fcad41b23e9a8d29 444900 ingerman_20131206-5_all.deb
+│ - 076d19e8451b519a9d5131d532cd0255559df603 444904 iswiss_20131206-5_all.deb
+│ - 3162d017087279ad3fec82cd4f1f8c38c18fadec 330774 myspell-de-at_20131206-5_all.deb
+│ - 1948383fb7cab92c5d1c85430e4399ce886a870e 330636 myspell-de-ch_20131206-5_all.deb
+│ - 39c7d6991e83573625af3e176a97c696ffcba7e9 326096 myspell-de-de_20131206-5_all.deb
+│ + 98e1a83432c9071c588311d591de7e8db083f588 332664 aspell-de_20131206-5_all.deb
+│ + 08bf63cf79a9a706977ec7a912894a7766d3218e 284846 hunspell-de-at_20131206-5_all.deb
+│ + 322e82644d32083424425448a0f967016d27e9ca 284584 hunspell-de-ch_20131206-5_all.deb
+│ + c503e140ceb0c8667fc2fc58c6d97673ffed7da3 284038 hunspell-de-de_20131206-5_all.deb
+│ + 2f9f1c10f60e723a8f171769c669ffdb0058c504 444900 ingerman_20131206-5_all.deb
+│ + b6a9fc4a43719f366480441b30b95e2acaeac467 444904 iswiss_20131206-5_all.deb
+│ + f08d9d241e693194b9b16800e31638849bdcbe52 330774 myspell-de-at_20131206-5_all.deb
+│ + c4a6b99717a5ee71be3dbd05d4b5733c5332f186 330636 myspell-de-ch_20131206-5_all.deb
+│ + b5c2592b8afacb5c696a303fccea463af42c22a3 326098 myspell-de-de_20131206-5_all.deb
+│   7c1c772af68c40891435f13b970fe07019742913 20302 rmligs-german_20131206-5_all.deb
+│   d4e79ae83d960c0567b11bd710dbeb9df83149f5 676900 wngerman_20131206-5_all.deb
+│   52fc0bb3e50ac5ae68ac3606ba579fd6f3b3daf9 677160 wswiss_20131206-5_all.deb
+│  Checksums-Sha256:
+│   962a431600f07cf9d298ed2d41f87d7edec322ea01ef98c2dde32b1641a7b40a 1850 igerman98_20131206-5.dsc
+│ - d8279b77f389fd12c2785a5837fa521d2a7fbec656920bfe2bc3691cd7bb6559 332686 aspell-de_20131206-5_all.deb
+│ - 1dab388a1cff207c15783bc08d55124fd14a2b54674270f5b6ef38af761bcbbe 284846 hunspell-de-at_20131206-5_all.deb
+│ - 115a471ca2a87c159713cffc7288b61cc4313d09aada0c609ec3b7bb66b059ac 284586 hunspell-de-ch_20131206-5_all.deb
+│ - 94df713807c3635c81a6a3630087acd5f88277a125afce2aa3353c59ba446fab 284038 hunspell-de-de_20131206-5_all.deb
+│ - b23bd2a259d430ddc45803ceae56bf72fdf21d45637638979e511204b8c465c0 444900 ingerman_20131206-5_all.deb
+│ - 176566f64c1a4b0ad854a4ec97ade99dfcd7bb024d42bfa672f5e57de7a942a5 444904 iswiss_20131206-5_all.deb
+│ - f3366b17e2f24cd86a8af77b8628573f8776e8efeebe1c239af65c9580d19ece 330774 myspell-de-at_20131206-5_all.deb
+│ - d2d3e33b2ba03f521f5510ab8f4284df24f0d6e4f349cbe64186c315758d5fb1 330636 myspell-de-ch_20131206-5_all.deb
+│ - 1e83151c63e628b8407cf9ab25b17801b3590e25536b338e10ca9e56efdb7cb3 326096 myspell-de-de_20131206-5_all.deb
+│ + 2bc58fef1cc5ba2c4bf29118290bd73f38ea7ea4a8dbb0de6caedbac197869d7 332664 aspell-de_20131206-5_all.deb
+│ + 87b02a112ba583207983ec6b8b11bf87e475bef591d11541dd7f2ea2bfa0ece2 284846 hunspell-de-at_20131206-5_all.deb
+│ + 00380d1fa76dc25ede7c51d50fc2850627efcfccb5855ef7a18f29d3039a9fbb 284584 hunspell-de-ch_20131206-5_all.deb
+│ + d57b66b86fc02e481696b62be1998fa60f0628ee7cf1da2b6559781e0dfd0773 284038 hunspell-de-de_20131206-5_all.deb
+│ + 306ea5ca6929144d5fb64e6be703dd59e061f870f15be366bd419bf697e2bffd 444900 ingerman_20131206-5_all.deb
+│ + 26db75f2e3860412ed6e8e6766785f26b96a34fd4d8818a246292d921f0449b7 444904 iswiss_20131206-5_all.deb
+│ + 991d9a68063282369d41fd14f9f9ab2c5ca380c122621cf38b9d40946fdc27f9 330774 myspell-de-at_20131206-5_all.deb
+│ + 32c42355bc389db6ef8e14a687e2c4815e3a75ad36157c5daf7b86608a64be8f 330636 myspell-de-ch_20131206-5_all.deb
+│ + 540ba38f3e08406bdb731f2f379fe02700ae7f3d4fce443292a1f429eb04ad04 326098 myspell-de-de_20131206-5_all.deb
+│   6343976ff8bc88ac45795b86308cce7c9a605f28cec8c23f15dffc7826f41508 20302 rmligs-german_20131206-5_all.deb
+│   5bf1ec893cd2591264d8c039553d58e3ed4a3215d042a210341fb347033e53cc 676900 wngerman_20131206-5_all.deb
+│   037dc2e71c66d6bf991b3a32b03db3af011565b758f5d0397cd3d32d0e600ad2 677160 wswiss_20131206-5_all.deb
+│  Build-Path: /tmp/buildd/igerman98-20131206
+│  Build-Environment:
+│   adduser (= 3.113+nmu3),
+│   aspell (= 0.60.7~20110707-3),
+├── ingerman_20131206-5_all.deb
+│   ├── control.tar.gz
+│   │   ├── control.tar
+│   │   │   ├── md5sums
+│   │   │   │┄ Files in package differs
+│   │   │   ╵
+│   │   ╵
+│   ├── data.tar.xz
+│   │   ├── data.tar
+│   │   │   ├── ./usr/share/ispell/ngerman.mwl.gz
+│   │   │   │   ├── metadata
+│   │   │   │   │ @@ -1 +1 @@
+│   │   │   │   │ -gzip compressed data, last modified: Sat Aug  1 18:20:42 2015, max compression, from Unix
+│   │   │   │   │ +gzip compressed data, last modified: Sat Aug  1 18:23:43 2015, max compression, from Unix
+│   │   │   │   ╵
+│   │   │   ╵
+│   │   ╵
+│   ╵
+├── iswiss_20131206-5_all.deb
+│   ├── metadata
+│   │ @@ -1,3 +1,3 @@
+│   │  rw-r--r-- 0/0      4 Jun 11 16:19 2014 debian-binary
+│   │ -rw-r--r-- 0/0   2223 Jun 11 16:19 2014 control.tar.gz
+│   │ -rw-r--r-- 0/0 442488 Jun 11 16:19 2014 data.tar.xz
+│   │ +rw-r--r-- 0/0   2220 Jun 11 16:19 2014 control.tar.gz
+│   │ +rw-r--r-- 0/0 442492 Jun 11 16:19 2014 data.tar.xz
+│   ├── control.tar.gz
+│   │   ├── control.tar
+│   │   │   ├── md5sums
+│   │   │   │┄ Files in package differs
+│   │   │   ╵
+│   │   ╵
+│   ├── data.tar.xz
+│   │   ├── data.tar
+│   │   │   ├── ./usr/share/ispell/swiss.mwl.gz
+│   │   │   │   ├── metadata
+│   │   │   │   │ @@ -1 +1 @@
+│   │   │   │   │ -gzip compressed data, last modified: Sat Aug  1 18:21:32 2015, max compression, from Unix
+│   │   │   │   │ +gzip compressed data, last modified: Sat Aug  1 18:24:33 2015, max compression, from Unix
+│   │   │   │   ╵
+│   │   │   ╵
+│   │   ╵
+│   ╵
+├── myspell-de-at_20131206-5_all.deb
+│   ├── control.tar.gz
+│   │   ├── control.tar
+│   │   │   ├── md5sums
+│   │   │   │┄ Files in package differs
+│   │   │   ╵
+│   │   ╵
+│   ├── data.tar.xz
+│   │   ├── data.tar
+│   │   │   ├── ./usr/share/hunspell/de_AT.aff
+│   │   │   │ @@ -1,11 +1,11 @@
+│   │   │   │  # this is the affix file of the de_AT Myspell dictionary
+│   │   │   │  # derived from the igerman98 dictionary
+│   │   │   │  #
+│   │   │   │ -# Version: 20131206 (build 20150801)
+│   │   │   │ +# Version: 20131206 (build 20150802)
+│   │   │   │  #
+│   │   │   │  # Copyright (C) 1998-2011 Bjoern Jacke <bjoern@j3e.de>
+│   │   │   │  #
+│   │   │   │  # License: GPLv2, GPLv3 or OASIS distribution license agreement
+│   │   │   │  # There should be a copy of all of this licenses included
+│   │   │   │  # with every distribution of this dictionary. Modified
+│   │   │   │  # versions using the GPL may only include the GPL
+│   │   │   ├── ./usr/share/hunspell/de_AT.dic
+│   │   │   │ @@ -1,12 +1,12 @@
+│   │   │   │  83709
+│   │   │   │  	This is the dictionary file of the de_AT Myspell dictionary
+│   │   │   │  	derived from the igerman98 dictionary
+│   │   │   │  	
+│   │   │   │ -	Version: 20131206 (build 20150801)
+│   │   │   │ +	Version: 20131206 (build 20150802)
+│   │   │   │  	
+│   │   │   │  	Copyright (C) 1998-2011 Bjoern Jacke <bjoern@j3e.de>
+│   │   │   │  	
+│   │   │   │  	License: GPLv2, GPLv3 or OASIS distribution license agreement There
+│   │   │   │  	should be a copy of all of this licenses included with every distribution
+│   │   │   │  	of this dictionary. Modified versions using the GPL may only include the
+│   │   │   │  	GPL. This dictionary is compiled from igerman98. For the purpose of the
+│   │   │   ╵
+│   │   ╵
+│   ╵
+├── myspell-de-ch_20131206-5_all.deb
+│   ├── control.tar.gz
+│   │   ├── control.tar
+│   │   │   ├── md5sums
+│   │   │   │┄ Files in package differs
+│   │   │   ╵
+│   │   ╵
+│   ├── data.tar.xz
+│   │   ├── data.tar
+│   │   │   ├── ./usr/share/hunspell/de_CH.aff
+│   │   │   │ @@ -1,11 +1,11 @@
+│   │   │   │  # this is the affix file of the de_CH Myspell dictionary
+│   │   │   │  # derived from the igerman98 dictionary
+│   │   │   │  #
+│   │   │   │ -# Version: 20131206 (build 20150801)
+│   │   │   │ +# Version: 20131206 (build 20150802)
+│   │   │   │  #
+│   │   │   │  # Copyright (C) 1998-2011 Bjoern Jacke <bjoern@j3e.de>
+│   │   │   │  #
+│   │   │   │  # License: GPLv2, GPLv3 or OASIS distribution license agreement
+│   │   │   │  # There should be a copy of all of this licenses included
+│   │   │   │  # with every distribution of this dictionary. Modified
+│   │   │   │  # versions using the GPL may only include the GPL
+│   │   │   ├── ./usr/share/hunspell/de_CH.dic
+│   │   │   │ @@ -1,12 +1,12 @@
+│   │   │   │  83583
+│   │   │   │  	This is the dictionary file of the de_CH Myspell dictionary
+│   │   │   │  	derived from the igerman98 dictionary
+│   │   │   │  	
+│   │   │   │ -	Version: 20131206 (build 20150801)
+│   │   │   │ +	Version: 20131206 (build 20150802)
+│   │   │   │  	
+│   │   │   │  	Copyright (C) 1998-2011 Bjoern Jacke <bjoern@j3e.de>
+│   │   │   │  	
+│   │   │   │  	License: GPLv2, GPLv3 or OASIS distribution license agreement There
+│   │   │   │  	should be a copy of all of this licenses included with every distribution
+│   │   │   │  	of this dictionary. Modified versions using the GPL may only include the
+│   │   │   │  	GPL. This dictionary is compiled from igerman98. For the purpose of the
+│   │   │   ╵
+│   │   ╵
+│   ╵
+├── myspell-de-de_20131206-5_all.deb
+│   ├── metadata
+│   │ @@ -1,3 +1,3 @@
+│   │  rw-r--r-- 0/0      4 Jun 11 16:19 2014 debian-binary
+│   │ -rw-r--r-- 0/0    775 Jun 11 16:19 2014 control.tar.gz
+│   │ +rw-r--r-- 0/0    777 Jun 11 16:19 2014 control.tar.gz
+│   │  rw-r--r-- 0/0 325128 Jun 11 16:19 2014 data.tar.xz
+│   ├── control.tar.gz
+│   │   ├── control.tar
+│   │   │   ├── md5sums
+│   │   │   │┄ Files in package differs
+│   │   │   ╵
+│   │   ╵
+│   ├── data.tar.xz
+│   │   ├── data.tar
+│   │   │   ├── ./usr/share/hunspell/de_DE.aff
+│   │   │   │ @@ -1,11 +1,11 @@
+│   │   │   │  # this is the affix file of the de_DE Myspell dictionary
+│   │   │   │  # derived from the igerman98 dictionary
+│   │   │   │  #
+│   │   │   │ -# Version: 20131206 (build 20150801)
+│   │   │   │ +# Version: 20131206 (build 20150802)
+│   │   │   │  #
+│   │   │   │  # Copyright (C) 1998-2011 Bjoern Jacke <bjoern@j3e.de>
+│   │   │   │  #
+│   │   │   │  # License: GPLv2, GPLv3 or OASIS distribution license agreement
+│   │   │   │  # There should be a copy of all of this licenses included
+│   │   │   │  # with every distribution of this dictionary. Modified
+│   │   │   │  # versions using the GPL may only include the GPL
+│   │   │   ├── ./usr/share/hunspell/de_DE.dic
+│   │   │   │ @@ -1,12 +1,12 @@
+│   │   │   │  83550
+│   │   │   │  	This is the dictionary file of the de_DE Myspell dictionary
+│   │   │   │  	derived from the igerman98 dictionary
+│   │   │   │  	
+│   │   │   │ -	Version: 20131206 (build 20150801)
+│   │   │   │ +	Version: 20131206 (build 20150802)
+│   │   │   │  	
+│   │   │   │  	Copyright (C) 1998-2011 Bjoern Jacke <bjoern@j3e.de>
+│   │   │   │  	
+│   │   │   │  	License: GPLv2, GPLv3 or OASIS distribution license agreement There
+│   │   │   │  	should be a copy of all of this licenses included with every distribution
+│   │   │   │  	of this dictionary. Modified versions using the GPL may only include the
+│   │   │   │  	GPL. This dictionary is compiled from igerman98. For the purpose of the
+│   │   │   ╵
+│   │   ╵
+│   ╵
+╵
