@@ -1,0 +1,52 @@
+html {
+  height: 100%;
+}
+
+footer {
+  padding-bottom: 30px;
+}
+
+footer img {
+  max-height: 70px;
+}
+
+.wrapper {
+  padding-top: 24px;
+  padding-bottom: 80px;
+  margin-bottom: 36px;
+
+  color: #eee;
+  background-color: #110022;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    padding-top: 80px;
+  }
+}
+
+.wrapper .logo img {
+  max-height: 130px;
+}
+
+@media (min-width: 768px) {
+  .wrapper .logo img {
+    max-height: 200px;
+  }
+}
+
+@media (min-width: 1140px) {
+  .wrapper .logo img {
+    max-height: none;
+  }
+}
+
+.wrapper .lead {
+  margin-top: 24px;
+  margin-bottom: 14px;
+}
+
+.wrapper h2 {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}

@@ -1,1 +1,49 @@
-{{ content }}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="same-origin" />
+
+  <title>{{ page.title }}</title>
+  <link href="/static/css/bootstrap.min.css?{{ site.time | date: '%s%N' }}" rel="stylesheet" />
+  <link href="/static/css/diffoscope.css?{{ site.time | date: '%s%N' }}" rel="stylesheet" media="screen" />
+</head>
+
+<body>
+  <a class="hidden-xs" href="https://salsa.debian.org/reproducible-builds/diffoscope"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://lamby.pages.debian.net/salsa-ribbons/img/black_left.png" alt="Fork me on Salsa"></a>
+
+  <div class="wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-4 logo">
+          <a href="/">
+            <img src="/static/images/diffoscope.png?{{ site.time | date: '%s%N' }}" class="img-responsive center-block">
+          </a>
+        </div>
+
+        <div class="col-xs-12 col-sm-8">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container text-muted text-center">
+      <p>
+        <a href="https://reproducible-builds.org/">
+          <img src="/static/images/reproducible-builds.svg?{{ site.time | date: '%s%N' }}" class="img-responsive center-block">
+        </a>
+      </p>
+
+      <p>
+        <em>diffoscope</em> is developed under the umbrella of the
+        <a href="https://reproducible-builds.org/">reproducible-builds.org</a>
+        effort.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
