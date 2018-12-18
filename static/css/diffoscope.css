@@ -27,6 +27,7 @@ footer img {
 
 .wrapper .logo img {
   max-height: 130px;
+  margin-bottom: 20px;
 }
 
 @media (min-width: 768px) {
