@@ -67,7 +67,7 @@ title: "diffoscope: in-depth comparison of files, archives, and directories"
 * <a href="https://salsa.debian.org/reproducible-builds/diffoscope">Git repository</a>
 
 * <a href="https://salsa.debian.org/reproducible-builds/diffoscope/issues">Issues and feature requests</a>
-  * <a href="https://salsa.debian.org/reproducible-builds/diffoscope/issues/new">File a new issue!</a> (<a href="https://reproducible-builds.org/contribute/salsa/">registration instructions</a>)</ul>
+  * <a href="https://salsa.debian.org/reproducible-builds/diffoscope/issues/new">File a new issue!</a> (<a href="https://reproducible-builds.org/contribute/salsa/">registration instructions</a>)
 
 * <a href="https://lists.reproducible-builds.org/listinfo/diffoscope">Users and developers mailing-list</a>
 
