@@ -7,8 +7,8 @@
   <meta name="referrer" content="same-origin" />
 
   <title>{{ page.title }}</title>
-  <link href="/static/css/bootstrap.min.css?{{ site.time | date: '%s%N' }}" rel="stylesheet" />
-  <link href="/static/css/diffoscope.css?{{ site.time | date: '%s%N' }}" rel="stylesheet" media="screen" />
+  <link href="{{ "static/css/bootstrap.min.css" | prepend: site.baseurl }}?{{ site.time | date: '%s%N' }}" rel="stylesheet" />
+  <link href="{{ "static/css/diffoscope.css" | prepend: site.baseurl }}?{{ site.time | date: '%s%N' }}" rel="stylesheet" media="screen" />
 </head>
 
 <body>
@@ -19,7 +19,7 @@
       <div class="row">
         <div class="col-xs-12 col-sm-4 logo">
           <a href="/">
-            <img src="/static/images/diffoscope.png?{{ site.time | date: '%s%N' }}" class="img-responsive center-block">
+            <img src="{{ "static/images/diffoscope.png" | prepend: site.baseurl }}?{{ site.time | date: '%s%N' }}" class="img-responsive center-block">
           </a>
         </div>
 
@@ -34,7 +34,7 @@
     <div class="container text-muted text-center">
       <p>
         <a href="https://reproducible-builds.org/">
-          <img src="/static/images/reproducible-builds.svg?{{ site.time | date: '%s%N' }}" class="img-responsive center-block">
+          <img src="{{ "static/images/reproducible-builds.svg" | prepend: site.baseurl }}?{{ site.time | date: '%s%N' }}" class="img-responsive center-block">
         </a>
       </p>
 

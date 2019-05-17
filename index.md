@@ -11,17 +11,17 @@ title: "diffoscope: in-depth comparison of files, archives, and directories"
 
 ----
 
-<img src="/static/images/progressbar.gif?{{ site.time | date: '%s%N' }}">
+<img src="{{ "static/images/progressbar.gif" | prepend: site.baseurl }}?{{ site.time | date: '%s%N' }}">
 
 ## Examples
 
-[![Example of diffoscope HTML output](/examples/https-everywhere-5.0.6_vs_5.0.7.thumbnail.png?{{ site.time | date: '%s%N' }})](/examples/https-everywhere-5.0.6_vs_5.0.7.html)
+[![Example of diffoscope HTML output]({{ "examples/https-everywhere-5.0.6_vs_5.0.7.thumbnail.png" | prepend: site.baseurl }}?{{ site.time | date: '%s%N' }})]({{ "examples/https-everywhere-5.0.6_vs_5.0.7.html"  | prepend: site.baseurl }})
 
-[Firefox extensions compared (HTML output)](/examples/https-everywhere-5.0.6_vs_5.0.7.html)
+[Firefox extensions compared (HTML output)]({{ "examples/https-everywhere-5.0.6_vs_5.0.7.html" | prepend: site.baseurl }})
 
-[![Example of diffoscope text output](/examples/igerman98_20131206-5.thumbnail.png?{{ site.time | date: '%s%N' }})](/examples/igerman98_20131206-5.txt)
+[![Example of diffoscope text output]({{ "examples/igerman98_20131206-5.thumbnail.png" | prepend: site.baseurl }}?{{ site.time | date: '%s%N' }})]({{ "examples/igerman98_20131206-5.txt" | prepend: site.baseurl }})
 
-[Debian packages compared (text output)](/examples/igerman98_20131206-5.txt)
+[Debian packages compared (text output)]({{ "/examples/igerman98_20131206-5.txt" | prepend: site.baseurl }})
 
 &hellip; and more [examples on tests.reproducible-builds.org](https://tests.reproducible-builds.org/debian/unstable/amd64/index_FTBR.html).
 
