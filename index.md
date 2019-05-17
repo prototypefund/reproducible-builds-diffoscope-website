@@ -11,7 +11,14 @@ title: "diffoscope: in-depth comparison of files, archives, and directories"
 
 ----
 
-<img src="{{ "static/images/progressbar.gif" | prepend: site.baseurl }}?{{ site.time | date: '%s%N' }}">
+Try it now using Docker:
+
+    echo foo > file1
+    echo bar > file2
+    docker run --rm -t -w $(pwd) -v $(pwd):$(pwd):ro \
+          registry.salsa.debian.org/reproducible-builds/diffoscope file1 file2
+
+... or try it on [**try.diffoscope.org**](https://try.diffoscope.org/)!
 
 ## Examples
 
@@ -24,6 +31,10 @@ title: "diffoscope: in-depth comparison of files, archives, and directories"
 [Debian packages compared (text output)]({{ "/examples/igerman98_20131206-5.txt" | prepend: site.baseurl }})
 
 &hellip; and more [examples on tests.reproducible-builds.org](https://tests.reproducible-builds.org/debian/unstable/amd64/index_FTBR.html).
+
+## Demo
+
+<img src="{{ "static/images/progressbar.gif" | prepend: site.baseurl }}?{{ site.time | date: '%s%N' }}">
 
 ## Features
 
@@ -42,6 +53,7 @@ title: "diffoscope: in-depth comparison of files, archives, and directories"
 ## Get diffoscope
 
 * **<a href="https://try.diffoscope.org/">Try it online!</a>**
+
 * Via <a href="https://pypi.python.org/">`pip`</a>:<br /> `pip install diffoscope`<br /> *Note:* You might still want to install Python modules from <a href="https://github.com/trendmicro/tlsh">tlsh</a> and <a href="http://rpm.org/">rpm</a> and other external tools to get more meaningful results. Use `diffoscope --list-tools` to get the full list.
 
 * On <a href="https://www.debian.org/">Debian</a> and derivatives:<br />
