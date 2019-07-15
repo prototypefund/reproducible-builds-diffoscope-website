@@ -68,6 +68,9 @@ Try it now using Docker:
 * On <a href="https://freebsd.org">FreeBSD</a> based systems:<br/>
 `pkg install py36-diffoscope`
 
+* On <a href="https://openbsd.org">OpenBSD</a> based systems:<br/>
+`pkg_add diffoscope`
+
 * On <a href="http://brew.sh/">Homebrew</a>:<br/>`brew install diffoscope`
 
 * <a href="/archive">Source tarballs</a>
